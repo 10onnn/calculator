@@ -1,0 +1,46 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    height: 300px;
+    width: 180px;
+    background-color:lightslategrey;
+    padding: 20px;
+    border: 4px solid black;
+    border-radius: 10px;
+
+}
+
+.display{
+    height: 40px;
+    width: 180px;
+    background-color:powderblue;
+    text-align: end;
+}
+
+button{
+    font-size: 20px;
+    background-color: lightcyan;
+}
+
+.digit{
+    height: 40px;
+    width: 40px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 210px;
+    margin-top: 10px;
+}
+
+.button-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear,
+.delete {
+    width: 85px;
+}

@@ -5,21 +5,26 @@
     width: 180px;
     background-color:lightslategrey;
     padding: 20px;
-    border: 4px solid black;
+    border: 3px solid black;
     border-radius: 10px;
 
 }
 
 .display{
-    height: 40px;
-    width: 180px;
+    height: 32px;
+    width: 168px;
     background-color:powderblue;
     text-align: end;
+    padding: 4px;
+}
+
+.display-container{
+    border: 2px solid black;
 }
 
 button{
     font-size: 20px;
-    background-color: lightcyan;
+    background-color: rgb(225, 255, 255);
 }
 
 .digit{
@@ -43,4 +48,7 @@ button{
 .clear,
 .delete {
     width: 85px;
+}
+.clear{
+    background-color: rgb(253, 193, 243);
 }
